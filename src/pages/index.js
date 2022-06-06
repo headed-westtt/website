@@ -1,1 +1,5 @@
+export * from './About/About'
 export * from './Landing/Landing'
+export * from './NotFound/NotFound'
+export * from './Services/Services'
+export * from './Team/Team'

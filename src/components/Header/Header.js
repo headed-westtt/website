@@ -3,7 +3,9 @@ import { Logo } from '../Logo/Logo'
 
 export const Header = () => (
   <header className='header'>
-    <Logo />
-    <Button>Menu</Button>
+    <div className='header_main'>
+      <Logo />
+      <Button>Menu</Button>
+    </div>
   </header>
 )
