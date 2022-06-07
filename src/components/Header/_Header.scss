@@ -1,6 +1,14 @@
 .header {
   padding: 1.5rem 1rem;
 
+  &.hasSubtitle {
+    background-color: black;
+
+    .subtitle {
+      margin: 4rem 0 0;
+    }
+  }
+
   .header_main {
     display: flex;
     flex-flow: row nowrap;
