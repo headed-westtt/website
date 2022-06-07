@@ -1,9 +1,11 @@
+import { useLocation } from 'react-router-dom'
 import { Button } from '../Button/Button'
 import { Logo } from '../Logo/Logo'
-import useStore from '../../state/store'
+import { getSubtitle } from '../../helpers'
 
 export const Header = () => {
-  const subtitle = useStore((state) => state.subtitle)
+  const location = useLocation()
+  const subtitle = getSubtitle(location)
 
   return (
     <header className={`header ${subtitle && 'hasSubtitle'}`}>
