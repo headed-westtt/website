@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom'
 import { About, Landing, NotFound, Services, Team } from './pages'
 import { Layout } from './components'
 

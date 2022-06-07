@@ -1,4 +1,5 @@
 export * from './Button/Button'
 export * from './Header/Header'
+export * from './Header/LandingHeader'
 export * from './Layout/Layout'
 export * from './Logo/Logo'
