@@ -1,6 +1,5 @@
 export const Team = () => (
   <div>
-    <h2>Team</h2>
     <p>
       lorem ipsum dolior sit amet lorem ipsum dolior sit ametlorem ipsum dolior
       sit amet lorem ipsum dolior sit ametlorem ipsum dolior sit amet lorem

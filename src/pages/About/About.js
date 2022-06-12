@@ -1,6 +1,5 @@
 export const About = () => (
   <div>
-    <h2>about</h2>
     <p>
       lorem ipsum dolior sit amet lorem ipsum dolior sit ametlorem ipsum dolior
       sit amet lorem ipsum dolior sit ametlorem ipsum dolior sit amet lorem
