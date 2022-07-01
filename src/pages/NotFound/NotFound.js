@@ -1,5 +1,5 @@
 export const NotFound = () => (
-  <div>
+  <div className='page'>
     <p>The page you have requested cannot be found.</p>
   </div>
 )

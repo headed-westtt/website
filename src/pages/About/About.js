@@ -1,24 +1,19 @@
 export const About = () => (
-  <div>
+  <div className='page'>
+    <p>Our goal at Westtt is to make content that inspires.</p>
     <p>
-      lorem ipsum dolior sit amet lorem ipsum dolior sit ametlorem ipsum dolior
-      sit amet lorem ipsum dolior sit ametlorem ipsum dolior sit amet lorem
-      ipsum dolior sit gdfgdfametlorem ipsum dolior sit amet lorem ipsum dolior
-      sit ametlorem ipsum dolior sit amet lorem ipsum dolior sit ametlorem ipsum
-      doliodgfgdr sit amet lorem ipsum dolior sit ametlorem ipsum dolior sit
-      amet lorem ipsum dogvdfgflior sit amet lorem ipsum dolior sit amet lorem
-      ipsum dolior sit ametlorem ipsum dolior sit amet lorem ipsum dolio hdfhfd
-      r sit ametlorem ipsum dolior sit amet lorem ipsum dolior sit ametlorem
-      ipsum dolior sit amet lorem dfdfhipsum dolior sit ametlorem ipsum dolior
-      sit amet lorem gdfgdfgipsum dolior sit fdgd dfg dfh gd ametlorem ipsum
-      dolior sit amet lorem ipsum dogdfgdlior sit ametlorem ipsum dolior sit
-      amet lorem ipsum dolior sit amet lorem ipsum dolior sit amet lorem ipsum
-      dolior sit ametlore dm ipsum dolior sit amet lorem ipsum dolior sit
-      ametlorem ipsum dolior sit amet lorem ipsum doliodgfgdf dgfgr sit
-      ametlorem ipsum dolior sit amet lorem ihf dhgfhd h psum dolior sit
-      ametlorem ipsum dolior sit amet lorem ipsum dolior sit ametlorem ipsum
-      dolior sit amet lorem ipsum dolior sit ametlorem ipsum dolior sit amet
-      lorem ipsum dolior sit amet
+      Westtt is a real estate content services firm at its core. We provide
+      interior, exterior, and aerial photography and videography for real estate
+      agents, architects, interior designers, and developers in the real estate
+      industry.
+    </p>
+    <p>
+      The Westtt team has the most experience capturing residential projects,
+      but we are very interested in making content for any and all captivating
+      projects and properties. We are currently based in the Chicago suburbs
+      (United States), but are mobile and ready to work across the globe. As our
+      name suggests, as well as the name of our parent company, Headed West, our
+      focus is on projects in Southern California.
     </p>
   </div>
 )

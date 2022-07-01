@@ -1,0 +1,12 @@
+.page {
+  max-width: 50rem;
+  margin: 1rem auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+
+  p {
+    margin: 0 0 1rem 0;
+  }
+}
