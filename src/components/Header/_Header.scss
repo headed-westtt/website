@@ -1,7 +1,18 @@
 .header {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 1rem;
+  padding: 1.5rem 1rem;
+
+  &.hasSubtitle {
+    background-color: black;
+
+    .subtitle {
+      margin: 4rem 0 0;
+    }
+  }
+
+  .header_main {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
 }

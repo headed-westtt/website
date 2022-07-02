@@ -1,0 +1,34 @@
+.menu {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+  position: relative;
+
+  .menu_links {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    top: 3rem;
+    position: absolute;
+    a {
+      color: white;
+      text-decoration: none;
+      &:hover {
+        color: #ffcc00;
+      }
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+    animation-duration: 0.25s;
+    animation-name: fadeIn;
+  }
+}
