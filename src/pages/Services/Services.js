@@ -3,30 +3,33 @@ import {
   interiorPhotography,
   exteriorPhotography,
   aerialPhotography,
-  videography,
+  // videography,
 } from '../../static/services'
+import interior from '../../static/interior.jpeg'
+import exterior from '../../static/exterior.jpeg'
+import aerial from '../../static/aerial.jpeg'
 
 export const Services = () => (
   <div className='page'>
     <Card
       title={interiorPhotography.title}
-      description={interiorPhotography.description}
-      imgUrl={interiorPhotography.imgUrl}
+      // description={interiorPhotography.description}
+      imgUrl={interior}
     />
     <Card
       title={exteriorPhotography.title}
-      description={exteriorPhotography.description}
-      imgUrl={exteriorPhotography.imgUrl}
+      // description={exteriorPhotography.description}
+      imgUrl={exterior}
     />
     <Card
       title={aerialPhotography.title}
-      description={aerialPhotography.description}
-      imgUrl={aerialPhotography.imgUrl}
+      // description={aerialPhotography.description}
+      imgUrl={aerial}
     />
-    <Card
+    {/* <Card
       title={videography.title}
       description={videography.description}
       imgUrl={videography.imgUrl}
-    />
+    /> */}
   </div>
 )

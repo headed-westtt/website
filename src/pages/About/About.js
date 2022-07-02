@@ -1,6 +1,6 @@
 export const About = () => (
   <div className='page'>
-    <p>Our goal at Westtt is to make content that inspires.</p>
+    <b>Our goal at Westtt is to make content that inspires.</b>
     <p>
       Westtt is a real estate content services firm at its core. We provide
       interior, exterior, and aerial photography and videography for real estate
